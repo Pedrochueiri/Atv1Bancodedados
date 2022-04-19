@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5C495BCC-6E33-2FDC-812F-C39520289015" name="T_SCU_LIVROS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:59:58 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LIVRO" id="E8FA38FB-C776-783F-4E57-3D0643ADED1F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:00:13 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_ISBN" id="F9BD3727-D2D9-0EF1-4A36-C0A4E016A105">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:00:32 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_EDICAO" id="09D1412A-1694-9094-39FA-E06425ED2C81">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:01:15 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_TITULO" id="FE36EAB6-7C86-E45F-D9ED-30E4A084FB83">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:01:35 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>666</dataTypeSize>
+<ownDataTypeParameters>666,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LV_EDITORA" id="0AB36869-9D58-13BE-D03B-3E56E440AA63">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:03:46 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>70</dataTypeSize>
+<ownDataTypeParameters>70,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_PUBLICACAO" id="8C2F19E4-48CE-1C46-0251-5C5FCA996E27">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:04:15 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4798BA96-531C-5E90-27C0-0AE3BD43830F" name="T_SCU_LIVROS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:00:30 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E8FA38FB-C776-783F-4E57-3D0643ADED1F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

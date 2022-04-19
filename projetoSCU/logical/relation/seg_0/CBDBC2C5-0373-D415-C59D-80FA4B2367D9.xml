@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_T_SCU_DSC_LIV" directorySegmentName="seg_0" id="CBDBC2C5-0373-D415-C59D-80FA4B2367D9">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:19:06 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<sourcePk>FC078CC2-5FF4-8816-79E0-E8393603AF4F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0BE51E7-FF6D-F31D-5C68-897D1344E681</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EBC2D2A7-A492-48C1-13E0-E9C827718150</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

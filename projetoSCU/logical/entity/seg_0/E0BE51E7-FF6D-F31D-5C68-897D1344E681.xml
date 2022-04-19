@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E0BE51E7-FF6D-F31D-5C68-897D1344E681" name="T_SCU_DISCIPLINAS">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:50:11 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CURSO" id="9C02684C-2118-92E4-D6FC-FBDEABCD5F3E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:16:33 UTC</createdTime>
+<generatorID>2750F787-06C3-350D-012D-D2F07BC672ED</generatorID>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<referedAttribute>F3BD7307-1676-4C45-8F45-132ECE8A355D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_DISCIPLINA" id="451A6AA0-8C96-B851-AEBC-35CFEE2BC000">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:56:06 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="SG_DISCIPLINA" id="A870E62F-2FA4-B595-013A-160D841F7CB7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:56:34 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_DISCIPLINA" id="46648A17-02B9-361C-8F9E-30123C43E6ED">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:57:55 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="OB_DISCIPLINA" id="41919F8A-0E7E-E63D-19FF-D08B8CCE7261">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:58:21 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CREDITOS" id="EB2CCCB5-E3EC-93CD-BA9B-76C222F04995">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:58:49 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_CRIACAO" id="7B09A0C9-1E44-4B3E-9D4E-FF2FCB21FB06">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:04:52 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FC078CC2-5FF4-8816-79E0-E8393603AF4F" name="T_SCU_DISCIPLINAS PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 11:56:32 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>451A6AA0-8C96-B851-AEBC-35CFEE2BC000</attributeRef>
+<attributeRef>9C02684C-2118-92E4-D6FC-FBDEABCD5F3E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

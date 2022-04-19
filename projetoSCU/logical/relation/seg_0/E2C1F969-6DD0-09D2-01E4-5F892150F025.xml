@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_T_SCU_DISC_SIG" directorySegmentName="seg_0" id="E2C1F969-6DD0-09D2-01E4-5F892150F025">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:18:09 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<sourcePk>FC078CC2-5FF4-8816-79E0-E8393603AF4F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E0BE51E7-FF6D-F31D-5C68-897D1344E681</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3CE3C9BB-91AE-56DD-C886-1B0DAABF5063</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

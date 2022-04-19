@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5D9369DF-BE47-F10A-5479-7B4217136A47" name="T_SCU_AUTORES">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:24:21 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AUTOR" id="1361AA89-BFBB-C493-3984-5163E65635E7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:24:34 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_AUTOR" id="8DFA34DA-7405-8EFD-BCD1-E1466D78EB75">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:25:25 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="LV_AUTOR" id="9D009078-934B-7458-9843-C9EF7CB4EA67">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:27:40 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C62D397A-6813-8DB4-E941-978CB7FA4121" name="T_SCU_AUTORES PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:24:51 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1361AA89-BFBB-C493-3984-5163E65635E7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6FC20CE3-F876-6D21-879F-EBB1694E6B5C" name="T_SCU_LIV_AUTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:34:58 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_LIV_AUTO" id="2A0F27AD-FDE3-42B3-2918-8906338405F3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:35:22 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_14" id="BB49F31E-D47C-C2AB-8CF4-E92818AADBE7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:35:49 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_LIVRO" id="7D6D63EF-81B7-CFFA-73A5-53836E554DE4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:38:19 UTC</createdTime>
+<generatorID>D3B3B98F-5C05-9627-173C-BA97E59801C9</generatorID>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<referedAttribute>E8FA38FB-C776-783F-4E57-3D0643ADED1F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AUTOR" id="6CC0367E-BC29-FBB1-774A-1094435410FB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:38:58 UTC</createdTime>
+<generatorID>C4055B04-C45A-668D-CB2E-CF46D82EC049</generatorID>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<referedAttribute>1361AA89-BFBB-C493-3984-5163E65635E7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E5CAA5C6-5C84-F2AE-18F1-54835FDA91CF" name="T_SCU_LIV_AUTO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-04-12 12:35:47 UTC</createdTime>
+<ownerDesignName>projetoSCU</ownerDesignName>
+<engineerTo>
+<item key="C8077ECF-E461-1913-1A0E-3C7F81B92387" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2A0F27AD-FDE3-42B3-2918-8906338405F3</attributeRef>
+<attributeRef>7D6D63EF-81B7-CFFA-73A5-53836E554DE4</attributeRef>
+<attributeRef>6CC0367E-BC29-FBB1-774A-1094435410FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
